@@ -1,0 +1,98 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: pink;
+
+}
+h1{
+	color: blue;
+	text-align: center;
+	font-family: 'Work Sans', sans-serif;
+}
+i{   /*configuracion general de los iconos superiores*/
+	color: #fff;
+	list-style: none;
+	display: inline-block;
+	background: green;
+	display: fixed;
+	font-family: 'Work Sans', sans-serif;
+
+}
+#ini{   /*icono de inicio*/
+	width: 70px;
+	height: 30px;
+	margin-left: 15px;
+	margin-right: 20px;
+
+}
+#noti{  /*incono notificaciones*/
+	width: 160px;
+	height: 30px;
+	margin-left: 15px;
+	margin-right: 20px;
+}
+#mens{   /*icono mensajes*/
+	width: 150px;
+	height: 30px;
+	margin-left: 15px;
+	margin-right: 20px;
+}
+#icos{    /*icono twitter*/
+	width: 30px;
+	height: 30px;
+	margin-left: 15px;
+	margin-right: 20px;	
+
+}
+#busc{    /*espacio para buscar */
+	width: 180px;
+	height: 30px;
+	margin-left: 15px;
+	margin-right: 20px;
+}
+#foto{    /*foto peque;a del usuario*/
+	width: 30px;
+	height: 30px;
+	margin-left: 15px;
+	margin-right: 20px;
+}
+#twtt{    /*boton twittear*/   /*font-family: "Segoe UI",Arial,sans-serif*/
+	width: 100px;
+	height: 30px;
+	border-radius: 20px;
+	text-align: center;
+	background: #76D7C4;   /*aqua*/
+	color:#fff;
+	padding-top: 5px;
+	margin-left: 15px;
+	margin-right: 20px;
+}
+.img_chat{    /*imagen portada*/
+	width: 1100px;
+	height: 350px;
+	margin top: 20px;
+	position: absolute;
+
+}
+#perfil{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	border: 5px solid #fff;
+	position: relative;
+	top: 250px;
+	left: 150px;
+}
+
+#but{   /*boton de enviar */
+	width: 100px;
+	height: 30px;
+	border-radius: 10px;
+	border: 2px solid red;
+	background: white;
+	color: blue;
+}
+#but:hover{    /*cambios del boton una vez que se pasa el cursor por encima*/
+	background: orange;
+	color: #fff;
+}

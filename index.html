@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<title></title>
+</head>
+<body>
+
+
+<h1>TWITTER PIRATA</h1>
+<nav>
+	<i id="ini"><i class="fa fa-home" aria-hidden="true"></i>inicio</i>
+	<i id="noti"><i class="fa fa-bell-o" aria-hidden="true"></i>notificaciones</i>
+	<i id=mens""><i class="fa fa-envelope-o" aria-hidden="true"></i>mensajes</i>
+	<i id="icos"><i class="fa fa-twitter" aria-hidden="true"></i></i>
+	<i id="busc">buscar<i class="fa fa-search" aria-hidden="true"></i></i>
+	<i id="foto">foto usuario</i>
+	<i id="twtt">twitear</i>
+</nav>
+
+<img class="img_chat" src="img/imag lab.png">
+
+<img id="perfil" src="img/perfil.jpg">
+
+
+<h1>TWITTER</h1>
+
+	<p id="mensaje"></p>
+	<p id="msn"></p>
+	<button id="but"></button>
+
+	
+<script>
+
+//1 Crear el elemento-->
+var twit = document.createElement("h2");
+
+//2 Crear un nodo de texto-->
+var mens = document.createTextNode("Que estas pensando?");
+
+//3 Añadir el nodo de texto elemento -->
+twit.appendChild(mens);
+
+//4 Agregar atributos al elemento -->
+twit.setAttribute("align", "left");
+
+//5 Agregar el elemento al documento-->
+document.getElementById("mensaje").appendChild(twit);
+
+/* 1 Crear el elemento */
+var ventana = document.createElement("input");
+
+/* 2 Crear un nodo de texto */
+var posteo = document.createTextNode("value='text'");
+
+/* 3 Añadir el nodo de texto elemento */
+ventana.appendChild(posteo);
+
+/* 4 Agregar atributos al elemento */
+ventana.setAttribute("aligne", "center");
+
+
+/* 5 Agregar el elemento al documento */
+
+document.getElementById("msn").appendChild(ventana);
+
+/* 1 Crear el elemento boton*/
+var boton = document.createElement("button");
+
+/* 2 Crear un nodo de texto */
+var send = document.createTextNode("enviar");
+
+/* 3 Añadir el nodo de texto al elemento */
+boton.appendChild(send);
+
+/* 4 Agregar atributos al elemento */
+boton.setAttribute("name", "submit");
+
+
+/* 5 Agregar el elemento al documento */
+
+document.getElementById("but").appendChild(boton);
+
+</script>
+
+
+</body>
+</html>
